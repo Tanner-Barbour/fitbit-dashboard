@@ -3,9 +3,9 @@ import requests
 from datetime import datetime, timedelta
 import pandas as pd
 
-# --- Load tokens from Streamlit Secrets ---
+# --- Load access token from Streamlit secrets ---
 access_token = st.secrets["access_token"]
-# Optionally: grab other fields if needed
+# Optional: you can also access these if needed later
 # refresh_token = st.secrets["refresh_token"]
 # expires_at = st.secrets["expires_at"]
 
